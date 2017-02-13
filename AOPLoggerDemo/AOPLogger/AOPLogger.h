@@ -10,6 +10,9 @@
 
 extern NSString * const AOPLoggerMethod;
 extern NSString * const AOPLoggerLogInfo;
+extern NSString * const AOPLoggerPositionAfter;
+extern NSString * const AOPLoggerPositionBefore;
+extern NSString * const AOPLoggerPositionType;
 
 @protocol AOPLoggerGetConfigInfoProtocol <NSObject>
 
@@ -29,5 +32,7 @@ extern NSString * const AOPLoggerLogInfo;
 +(void)startAOPLoggerWithPlist;
 
 +(void)AOPLoggerWithClassString:(NSString*)classString methodString:(NSString*)methodString log:(id)log;
+
++(void)AOPLoggerWithClassString:(NSString *)classString methodString:(NSString *)methodString log:(id)log logPosition:(NSString*)logPosition;
 
 @end

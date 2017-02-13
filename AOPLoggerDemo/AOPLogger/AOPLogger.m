@@ -12,6 +12,9 @@
 
 NSString * const AOPLoggerMethod=@"AOPLoggerMethod";
 NSString * const AOPLoggerLogInfo=@"AOPLoggerLogInfo";
+NSString * const AOPLoggerPositionAfter=@"AOPLoggerPositionAfter";
+NSString * const AOPLoggerPositionBefore=@"AOPLoggerPositionBefore";
+NSString * const AOPLoggerPositionType=@"AOPLoggerPositionType";
 
 @implementation AOPLogger
 
@@ -37,7 +40,14 @@ NSString * const AOPLoggerLogInfo=@"AOPLoggerLogInfo";
         for (NSDictionary *eventInfo in loggerConfigInfo[className]) {
             Class clazz = NSClassFromString(className);
             SEL selector = NSSelectorFromString(eventInfo[AOPLoggerMethod]);
-            
+            AspectOptions positionOptions=AspectPositionAfter;
+            if ([loggerConfigInfo[AOPLoggerPositionType] isEqualToString:AOPLoggerPositionAfter]) {
+                positionOptions=AspectPositionAfter;
+            }
+            if ([loggerConfigInfo[AOPLoggerPositionType] isEqualToString:AOPLoggerPositionBefore]) {
+                positionOptions=AspectPositionBefore;
+            }
+
             [clazz aspect_hookSelector:selector
                            withOptions:AspectPositionAfter
                             usingBlock:^(id<AspectInfo> aspectInfo) {
@@ -59,11 +69,22 @@ NSString * const AOPLoggerLogInfo=@"AOPLoggerLogInfo";
 }
 
 +(void)AOPLoggerWithClassString:(NSString *)classString methodString:(NSString *)methodString log:(id)log{
+    [self AOPLoggerWithClassString:classString methodString:methodString log:log logPosition:nil];
+}
+
++(void)AOPLoggerWithClassString:(NSString *)classString methodString:(NSString *)methodString log:(id)log logPosition:(NSString*)logPosition{
     Class clazz = NSClassFromString(classString);
     SEL selector = NSSelectorFromString(methodString);
-
+    AspectOptions positionOptions=AspectPositionAfter;
+    if ([logPosition isEqualToString:AOPLoggerPositionAfter]) {
+        positionOptions=AspectPositionAfter;
+    }
+    if ([logPosition isEqualToString:AOPLoggerPositionBefore]) {
+        positionOptions=AspectPositionBefore;
+    }
+    
     [clazz aspect_hookSelector:selector
-                   withOptions:AspectPositionAfter
+                   withOptions:positionOptions
                     usingBlock:^(id<AspectInfo> aspectInfo) {
                         if ([[AOPLogger sharedAOPLogger] conformsToProtocol:objc_getProtocol("AOPLoggerBLLProtocol")]) {
                             [(AOPLogger<AOPLoggerBLLProtocol>*)[AOPLogger sharedAOPLogger] al_logger:log originAOP:aspectInfo];
@@ -74,7 +95,7 @@ NSString * const AOPLoggerLogInfo=@"AOPLoggerLogInfo";
                             }
                         }
                     } error:NULL];
-
+    
 }
 
 @end
