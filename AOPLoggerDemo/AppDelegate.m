@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "AOPLogger.h"
+#import "AOPLogger+Custom.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [AOPLogger startAOPLoggerWithPlist];
     return YES;
 }
 

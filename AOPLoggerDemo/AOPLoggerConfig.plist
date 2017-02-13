@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ViewController</key>
+	<array>
+		<dict>
+			<key>AOPLoggerLogInfo</key>
+			<string>showPage</string>
+			<key>AOPLoggerMethod</key>
+			<string>viewWillAppear:</string>
+		</dict>
+		<dict>
+			<key>AOPLoggerLogInfo</key>
+			<dict>
+				<key>EventName</key>
+				<string>showPage</string>
+				<key>EventLabel</key>
+				<string>view1</string>
+				<key>EventTime</key>
+				<true/>
+			</dict>
+			<key>AOPLoggerMethod</key>
+			<string>viewDidAppear:</string>
+		</dict>
+	</array>
+</dict>
+</plist>
