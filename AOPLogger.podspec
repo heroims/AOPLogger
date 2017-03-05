@@ -8,5 +8,6 @@ s.author                = { 'heroims' => 'heroims@163.com' }
 s.source                = { :git => 'https://github.com/heroims/AOPLogger.git', :tag => "#{s.version}" }
 s.platform              = :ios, '5.0'
 s.source_files          = 'AOPLogger/*.{h,m}'
+s.ios.dependency  	'Aspects'
 s.requires_arc          = true
 end
