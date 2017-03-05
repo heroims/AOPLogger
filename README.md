@@ -1,6 +1,6 @@
 # AOPLogger 切面日志
 
-![Screenshot1](http://heroims.github.io/AOPLogger/QQ20170306-012628 "Screenshot1") 
+![Screenshot1](http://heroims.github.io/AOPLogger/QQ20170306-012628.png "Screenshot1") 
 
 ###
 ```Objective-C
