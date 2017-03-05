@@ -16,10 +16,10 @@
 		84B7E5CF1E51881700EAB159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B7E5CD1E51881700EAB159 /* LaunchScreen.storyboard */; };
 		84B7E5DA1E51881700EAB159 /* AOPLoggerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E5D91E51881700EAB159 /* AOPLoggerDemoTests.m */; };
 		84B7E5E51E51881700EAB159 /* AOPLoggerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E5E41E51881700EAB159 /* AOPLoggerDemoUITests.m */; };
-		84B7E5F51E51884300EAB159 /* AOPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E5F41E51884300EAB159 /* AOPLogger.m */; };
 		84B7E5F71E51A17A00EAB159 /* AOPLoggerConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84B7E5F61E51A17A00EAB159 /* AOPLoggerConfig.plist */; };
 		84B7E5FB1E51A83D00EAB159 /* AOPLogger+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E5FA1E51A83D00EAB159 /* AOPLogger+Custom.m */; };
 		B6AF742B61F839E08052B77F /* libPods-AOPLoggerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E985160D6C3A19E9CBA825 /* libPods-AOPLoggerDemoTests.a */; };
+		D87A3E981E6C76FA008577AC /* AOPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D87A3E971E6C76FA008577AC /* AOPLogger.m */; };
 		F0B632635F1F81F372D730DA /* libPods-AOPLoggerDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6842B68F908BC29AC5221937 /* libPods-AOPLoggerDemoUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -61,8 +61,6 @@
 		84B7E5E01E51881700EAB159 /* AOPLoggerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOPLoggerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B7E5E41E51881700EAB159 /* AOPLoggerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOPLoggerDemoUITests.m; sourceTree = "<group>"; };
 		84B7E5E61E51881700EAB159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84B7E5F31E51884300EAB159 /* AOPLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOPLogger.h; sourceTree = "<group>"; };
-		84B7E5F41E51884300EAB159 /* AOPLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOPLogger.m; sourceTree = "<group>"; };
 		84B7E5F61E51A17A00EAB159 /* AOPLoggerConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AOPLoggerConfig.plist; sourceTree = "<group>"; };
 		84B7E5F91E51A83D00EAB159 /* AOPLogger+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AOPLogger+Custom.h"; sourceTree = "<group>"; };
 		84B7E5FA1E51A83D00EAB159 /* AOPLogger+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AOPLogger+Custom.m"; sourceTree = "<group>"; };
@@ -70,6 +68,8 @@
 		A217EF6F76826B0DA1FC1FA7 /* Pods-AOPLoggerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOPLoggerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AOPLoggerDemoTests/Pods-AOPLoggerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1E985160D6C3A19E9CBA825 /* libPods-AOPLoggerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AOPLoggerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF36A05DECC1FE14D0B929F /* Pods-AOPLoggerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOPLoggerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AOPLoggerDemoUITests/Pods-AOPLoggerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D87A3E961E6C76FA008577AC /* AOPLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOPLogger.h; sourceTree = "<group>"; };
+		D87A3E971E6C76FA008577AC /* AOPLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOPLogger.m; sourceTree = "<group>"; };
 		F63464709496FBA578B9D81E /* Pods-AOPLoggerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOPLoggerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AOPLoggerDemo/Pods-AOPLoggerDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,7 +149,7 @@
 		84B7E5BE1E51881600EAB159 /* AOPLoggerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				84B7E5F21E51882F00EAB159 /* AOPLogger */,
+				D87A3E951E6C76FA008577AC /* AOPLogger */,
 				84B7E5C21E51881600EAB159 /* AppDelegate.h */,
 				84B7E5C31E51881600EAB159 /* AppDelegate.m */,
 				84B7E5C51E51881600EAB159 /* ViewController.h */,
@@ -191,15 +191,6 @@
 			path = AOPLoggerDemoUITests;
 			sourceTree = "<group>";
 		};
-		84B7E5F21E51882F00EAB159 /* AOPLogger */ = {
-			isa = PBXGroup;
-			children = (
-				84B7E5F31E51884300EAB159 /* AOPLogger.h */,
-				84B7E5F41E51884300EAB159 /* AOPLogger.m */,
-			);
-			path = AOPLogger;
-			sourceTree = "<group>";
-		};
 		84B7E5F81E51A81C00EAB159 /* AOPLoggerCategory */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +199,15 @@
 			);
 			path = AOPLoggerCategory;
 			sourceTree = "<group>";
+		};
+		D87A3E951E6C76FA008577AC /* AOPLogger */ = {
+			isa = PBXGroup;
+			children = (
+				D87A3E961E6C76FA008577AC /* AOPLogger.h */,
+				D87A3E971E6C76FA008577AC /* AOPLogger.m */,
+			);
+			path = AOPLogger;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -492,7 +492,7 @@
 			files = (
 				84B7E5C71E51881600EAB159 /* ViewController.m in Sources */,
 				84B7E5C41E51881600EAB159 /* AppDelegate.m in Sources */,
-				84B7E5F51E51884300EAB159 /* AOPLogger.m in Sources */,
+				D87A3E981E6C76FA008577AC /* AOPLogger.m in Sources */,
 				84B7E5FB1E51A83D00EAB159 /* AOPLogger+Custom.m in Sources */,
 				84B7E5C11E51881600EAB159 /* main.m in Sources */,
 			);
