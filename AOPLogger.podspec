@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name                  = 'AOPLogger'
-s.version               = '1.0'
+s.version               = '1.1'
 s.summary               = 'A new Logger  '
 s.homepage              = 'https://github.com/heroims/AOPLogger'
 s.license               = { :type => 'MIT', :file => 'README.md' }
