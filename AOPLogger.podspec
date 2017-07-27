@@ -12,7 +12,6 @@ s.default_subspec = 'Core'
 
 s.subspec 'Core' do |core|
 core.source_files          = 'AOPLogger/*.{h,m}'
-core.ios.dependency  	'Aspects'
 end
 
 s.subspec 'AOPClick' do |aopclick|
@@ -21,4 +20,6 @@ aopclick.dependency                'AOPLogger/Core'
 end
 
 s.requires_arc          = true
+s.ios.dependency  	'Aspects'
+
 end
