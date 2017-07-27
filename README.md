@@ -1,4 +1,4 @@
-# AOPLogger 切面日志
+# AOPLogger 切面日志 ![](http://cocoapod-badges.herokuapp.com/v/AOPLogger/badge.png) ![](http://cocoapod-badges.herokuapp.com/p/AOPLogger/badge.png)
 ## 目的
 主要是为了从主工程内分离，可以单独的写日志系统，通过类扩展定制不同的统计方式
 ##调用
@@ -90,7 +90,8 @@ $ edit Podfile
 platform :ios, '5.0'
 
 
-pod 'AOPLogger',  '~> 1.0'
+pod 'AOPLogger'
+pod 'AOPLogger/AOPClick'
 
 $ pod install
 ````
