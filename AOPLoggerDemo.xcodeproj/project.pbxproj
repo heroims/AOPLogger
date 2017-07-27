@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6592DE6889F8E2A6C17EB538 /* libPods-AOPLoggerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B3FB1EA464FE47ABBAB920C /* libPods-AOPLoggerDemo.a */; };
+		8426AB031F29F5460095D5B1 /* AOPLogger.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8426AB021F29F5460095D5B1 /* AOPLogger.podspec */; };
 		84B7E5C11E51881600EAB159 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E5C01E51881600EAB159 /* main.m */; };
 		84B7E5C41E51881600EAB159 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E5C31E51881600EAB159 /* AppDelegate.m */; };
 		84B7E5C71E51881600EAB159 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E5C61E51881600EAB159 /* ViewController.m */; };
@@ -19,7 +20,6 @@
 		84B7E5F71E51A17A00EAB159 /* AOPLoggerConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84B7E5F61E51A17A00EAB159 /* AOPLoggerConfig.plist */; };
 		84B7E5FB1E51A83D00EAB159 /* AOPLogger+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E5FA1E51A83D00EAB159 /* AOPLogger+Custom.m */; };
 		B6AF742B61F839E08052B77F /* libPods-AOPLoggerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E985160D6C3A19E9CBA825 /* libPods-AOPLoggerDemoTests.a */; };
-		D87A3E981E6C76FA008577AC /* AOPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D87A3E971E6C76FA008577AC /* AOPLogger.m */; };
 		F0B632635F1F81F372D730DA /* libPods-AOPLoggerDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6842B68F908BC29AC5221937 /* libPods-AOPLoggerDemoUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +45,7 @@
 		3BF67F03F34F69E0D5835FA1 /* Pods-AOPLoggerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOPLoggerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AOPLoggerDemo/Pods-AOPLoggerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		40B2C2DF01323E3A459452A3 /* Pods-AOPLoggerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOPLoggerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AOPLoggerDemoTests/Pods-AOPLoggerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		6842B68F908BC29AC5221937 /* libPods-AOPLoggerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AOPLoggerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8426AB021F29F5460095D5B1 /* AOPLogger.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AOPLogger.podspec; sourceTree = SOURCE_ROOT; };
 		84B7E5BC1E51881600EAB159 /* AOPLoggerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOPLoggerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B7E5C01E51881600EAB159 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84B7E5C21E51881600EAB159 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,8 +69,6 @@
 		A217EF6F76826B0DA1FC1FA7 /* Pods-AOPLoggerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOPLoggerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AOPLoggerDemoTests/Pods-AOPLoggerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1E985160D6C3A19E9CBA825 /* libPods-AOPLoggerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AOPLoggerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF36A05DECC1FE14D0B929F /* Pods-AOPLoggerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOPLoggerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AOPLoggerDemoUITests/Pods-AOPLoggerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D87A3E961E6C76FA008577AC /* AOPLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOPLogger.h; sourceTree = "<group>"; };
-		D87A3E971E6C76FA008577AC /* AOPLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOPLogger.m; sourceTree = "<group>"; };
 		F63464709496FBA578B9D81E /* Pods-AOPLoggerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOPLoggerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AOPLoggerDemo/Pods-AOPLoggerDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,7 +148,7 @@
 		84B7E5BE1E51881600EAB159 /* AOPLoggerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D87A3E951E6C76FA008577AC /* AOPLogger */,
+				8426AB021F29F5460095D5B1 /* AOPLogger.podspec */,
 				84B7E5C21E51881600EAB159 /* AppDelegate.h */,
 				84B7E5C31E51881600EAB159 /* AppDelegate.m */,
 				84B7E5C51E51881600EAB159 /* ViewController.h */,
@@ -199,15 +198,6 @@
 			);
 			path = AOPLoggerCategory;
 			sourceTree = "<group>";
-		};
-		D87A3E951E6C76FA008577AC /* AOPLogger */ = {
-			isa = PBXGroup;
-			children = (
-				D87A3E961E6C76FA008577AC /* AOPLogger.h */,
-				D87A3E971E6C76FA008577AC /* AOPLogger.m */,
-			);
-			path = AOPLogger;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -327,6 +317,7 @@
 				84B7E5CF1E51881700EAB159 /* LaunchScreen.storyboard in Resources */,
 				84B7E5F71E51A17A00EAB159 /* AOPLoggerConfig.plist in Resources */,
 				84B7E5CC1E51881700EAB159 /* Assets.xcassets in Resources */,
+				8426AB031F29F5460095D5B1 /* AOPLogger.podspec in Resources */,
 				84B7E5CA1E51881600EAB159 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,13 +345,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AOPLoggerDemoUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3795065E2FC903A7EFE038E8 /* [CP] Check Pods Manifest.lock */ = {
@@ -369,13 +363,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AOPLoggerDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4FFB6956B0451954AC547E9C /* [CP] Embed Pods Frameworks */ = {
@@ -414,13 +411,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AOPLoggerDemoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		92D5C18D89F67A5861F606C0 /* [CP] Embed Pods Frameworks */ = {
@@ -492,7 +492,6 @@
 			files = (
 				84B7E5C71E51881600EAB159 /* ViewController.m in Sources */,
 				84B7E5C41E51881600EAB159 /* AppDelegate.m in Sources */,
-				D87A3E981E6C76FA008577AC /* AOPLogger.m in Sources */,
 				84B7E5FB1E51A83D00EAB159 /* AOPLogger+Custom.m in Sources */,
 				84B7E5C11E51881600EAB159 /* main.m in Sources */,
 			);
@@ -645,6 +644,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AOPLoggerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AOPLoggerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -657,6 +657,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AOPLoggerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AOPLoggerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

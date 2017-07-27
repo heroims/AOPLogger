@@ -2,7 +2,8 @@
 # platform :ios, '9.0'
 
 target 'AOPLoggerDemo' do
-pod 'Aspects'
+pod 'AOPLogger' , :path => 'AOPLogger.podspec'
+pod 'AOPLogger/AOPClick' , :path => 'AOPLogger.podspec'
 
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!

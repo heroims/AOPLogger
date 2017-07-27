@@ -9,6 +9,7 @@
 #import "AOPLogger.h"
 #import "Aspects.h"
 #import <objc/runtime.h>
+#import <libkern/OSAtomic.h>
 
 NSString * const AOPLoggerMethod=@"AOPLoggerMethod";
 NSString * const AOPLoggerLogInfo=@"AOPLoggerLogInfo";
@@ -95,6 +96,43 @@ NSString * const AOPLoggerPositionType=@"AOPLoggerPositionType";
                             }
                         }
                     } error:NULL];
+    
+}
+
+@end
+
+@implementation NSObject(AOPLogger)
+
++(void)al_hookOrAddWithOriginSeletor:(SEL)originalSelector swizzledSelector:(SEL)swizzledSelector error:(NSError**)error{
+    Class class = [self class];
+    
+    Method originalMethod = class_getInstanceMethod(class, originalSelector);
+    Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
+    
+    if (!originalMethod) {
+        *error=[NSError errorWithDomain:@"AOPLogger"
+                                  code:-1111
+                              userInfo:[NSDictionary dictionaryWithObject:[NSString stringWithFormat:@"not found origin method for class %@",NSStringFromClass([self class])] forKey:NSLocalizedDescriptionKey]];
+        return;
+    }
+    if (!swizzledMethod) {
+        *error=[NSError errorWithDomain:@"AOPLogger"
+                                   code:-1112
+                               userInfo:[NSDictionary dictionaryWithObject:[NSString stringWithFormat:@"not found swizzled method for class %@",NSStringFromClass([self class])]  forKey:NSLocalizedDescriptionKey]];
+
+        return;
+    }
+    
+    static OSSpinLock aspect_lock = OS_SPINLOCK_INIT;
+    OSSpinLockLock(&aspect_lock);
+    
+    BOOL success = class_addMethod(class, originalSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod));
+    if (success) {
+        class_replaceMethod(class, swizzledSelector, method_getImplementation(originalMethod), method_getTypeEncoding(originalMethod));
+    } else {
+        method_exchangeImplementations(originalMethod, swizzledMethod);
+    }
+    OSSpinLockUnlock(&aspect_lock);
     
 }
 

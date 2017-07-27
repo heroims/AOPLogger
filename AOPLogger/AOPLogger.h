@@ -44,6 +44,7 @@ extern NSString * const AOPLoggerPositionType;//执行日志统计的类型Key
 
 @interface AOPLogger : NSObject
 
++ (AOPLogger *)sharedAOPLogger;
 
 /**
  开始读取日志Plist配置文件
@@ -72,3 +73,18 @@ extern NSString * const AOPLoggerPositionType;//执行日志统计的类型Key
 +(void)AOPLoggerWithClassString:(NSString *)classString methodString:(NSString *)methodString log:(id)log logPosition:(NSString*)logPosition;
 
 @end
+
+@interface NSObject (AOPLogger)
+
+
+/**
+ 替换或添加方法，即使替换过也会替换，注意想单次替换使用dispatch_once保证
+
+ @param originalSelector 原方法
+ @param swizzledSelector 替换方法
+ @param error 错误信息
+ */
++(void)al_hookOrAddWithOriginSeletor:(SEL)originalSelector swizzledSelector:(SEL)swizzledSelector error:(NSError**)error;
+
+@end
+
