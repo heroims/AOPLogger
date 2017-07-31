@@ -89,8 +89,9 @@ Create Podfile:-
 $ edit Podfile
 platform :ios, '5.0'
 
-
 pod 'AOPLogger'
+
+#切面所有点击事件
 pod 'AOPLogger/AOPClick'
 
 $ pod install
