@@ -94,6 +94,28 @@ pod 'AOPLogger'
 #切面所有点击事件
 pod 'AOPLogger/AOPClick'
 
+#切面所有手势事件
+pod 'AOPLogger/AOPGestureRecognizer'
+
+#切面所有页面进入离开
+pod 'AOPLogger/AOPPageView'
+
 $ pod install
 ````
 Use the Xcode workspace instead of the project from now on.
+
+### App的生命周期处理
+随便建个类监听下面通知即可
+
+UIApplicationDidFinishLaunchingNotification （通知名称）  --->   application:didFinishLaunchingWithOptions:(委托方法）：在应用程序启动后直接进行应用程序级编码的主要方式。
+
+UIApplicationWillResignActiveNotification(通知名称）--->applicationWillResignActive:（委托方法）：用户按下主屏幕按钮调用 ，不要在此方法中假设将进入后台状态，只是一种临时变化，最终将恢复到活动状态
+
+UIApplicationDidBecomActiveNotification（通知名称） ---->applicationDidBecomeActive:(委托方法）：应用程序按下主屏幕按钮后想要将应用程序切换到前台时调用，应用程序启动时也会调用，可以在其中添加一些应用程序初始化代码
+
+UIApplicationDidEnterBackgroundNotification(通知名称）----->applicationDidEnterBackground:（委托方法）：应用程序在此方法中释放所有可在以后重新创建的资源，保存所有用户数据，关闭网络连接等。如果需要，也可以在这里请求在后台运行更长时间。如果在这里花费了太长时间（超过5秒），系统将断定应用程序的行为异常并终止他。
+
+UIApplicationWillEnterForegroundNotification(通知名称） ---->applicationWillEnterForeground:(委托方法):当应用程序在applicationDidEnterBackground:花费了太长时间，终止后，应该实现此方法来重新创建在applicationDidEnterBackground中销毁的内容，比如重新加载用户数据、重新建立网络连接等。
+
+UIApplicationWllTerminateNotification（通知名称） ----> applicationWillTerminate:(委托方法):现在很少使用，只有在应用程序已进入后台，并且系统出于某种原因决定跳过暂停状态并终止应用程序时，才会真正调用它。
+
