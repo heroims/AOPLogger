@@ -19,6 +19,11 @@ aopclick.source_files          = 'AOPClick/*.{h,m}'
 aopclick.dependency                'AOPLogger/Core'
 end
 
+s.subspec 'AOPGestureRecognizer' do |aopgesturerecognizer|
+aopgesturerecognizer.source_files          = 'AOPGestureRecognizer/*.{h,m}'
+aopgesturerecognizer.dependency                'AOPLogger/Core'
+end
+
 s.requires_arc          = true
 s.ios.dependency  	'Aspects'
 
