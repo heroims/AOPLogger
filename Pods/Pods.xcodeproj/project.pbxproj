@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		07C0D182436BF608B2B49777F66EA68A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		089EF0D0D1912399E6BEEFC5B2FE3494 /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 786587BD911A45F5A76A03E1D23AA280 /* Aspects-dummy.m */; };
 		0CD5C93B9212D789A894657C7AF03805 /* Pods-AOPLoggerDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF39492F9CBB71154DD9D4036CCCD6AE /* Pods-AOPLoggerDemoTests-dummy.m */; };
-		2CBBB483B0FEDC24D46A37776E8CD903 /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 786587BD911A45F5A76A03E1D23AA280 /* Aspects-dummy.m */; };
-		3A83975305FF31BF42EEE1EC3A899CE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1085EA0F3BAB745A6B62C66833E50709 /* UIApplication+AOPClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C41F768DFF76BDB6575302694DD2631 /* UIApplication+AOPClick.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		32E29D6B50FECAF361DDA5BF312E500E /* UIView+AOPGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = CA714CF997162B6E88BB0C71716ACBD0 /* UIView+AOPGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34330151348013F9321B1B0308D5BF27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3BE876F677005AA7885566CA74C302E7 /* UIApplication+AOPClick.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D053D94DA83953671793596B34A490 /* UIApplication+AOPClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		556C7F686C64644E7D45667BDE997F32 /* Pods-AOPLoggerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C0370D02D3F9B2EDAC7433534B749C /* Pods-AOPLoggerDemo-dummy.m */; };
 		5F3CED8AA3215B9AF5C790A1F1573B33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		629CD417E11E5494DAFAA86065BB7F96 /* AOPLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00CD31AB1BF5CECA4308E8ABE33D3A58 /* AOPLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F5E46593CF24919580DBFDA72584029 /* UIApplication+AOPClick.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CDFD24CE0470F75A6D7EBDAC8B818F /* UIApplication+AOPClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B34E295C4B91F12B5762E6FA87541FC5 /* UIApplication+AOPClick.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFE020ACC09F021A850317EE66CC06B /* UIApplication+AOPClick.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C6A29E20988AE14AB9DF0A74B052F6A1 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 86429B9296478D798A288217DFFBC51A /* Aspects.m */; };
-		D14DD1A206D86A4148D2593B085109F1 /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = CC40F1C41FCB9B2BDCA16245047437A8 /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D386613D1FFB37C27A3C3EEED9C5B52D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7C092A838B676D9ACBA78CFADC825E1E /* AOPLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 068F23CE170142686607D2FD397F6ECB /* AOPLogger-dummy.m */; };
+		8F4F29107D051A18B0507CF9B8F9D7CC /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 86429B9296478D798A288217DFFBC51A /* Aspects.m */; };
+		914944071A3AD498C1FAB546095309A0 /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = CC40F1C41FCB9B2BDCA16245047437A8 /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9923E075F8F43F65544007DC9D63E42A /* UIView+AOPGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F0E7B1FF8115E24A7514D27D5FBBE9 /* UIView+AOPGestureRecognizer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A05B95FEF07D798DD14B6F79B8B0798C /* UIViewController+AOPPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C25C3A4C60C05BA93437AA83FC590A /* UIViewController+AOPPageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B1F33BD03E42F0BE160B1A6742BB88FF /* AOPLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 322FB866CACBBDFAD40951CDA812954F /* AOPLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D515A8334B846BD2F84FD4DC33166062 /* UIViewController+AOPPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DFADA587A7CE3F8FE6B600C88388820 /* UIViewController+AOPPageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D76721B4CFB5BB37854542263525B857 /* Pods-AOPLoggerDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EA4F4983C3F42EC6A08646FEE62FF6 /* Pods-AOPLoggerDemoUITests-dummy.m */; };
-		ED5F8D0D1A8FE16F6CDDCFB9BAD2BC05 /* AOPLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E9ABCC056D0CA46E95CC2479F0980 /* AOPLogger-dummy.m */; };
-		EF209A8EA631B5FF732798DE5AB1EF00 /* AOPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2826E477163AC7B106D2485107FA1A /* AOPLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D934AAF87B245B1B3569ABE7F14A7462 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E03BA23CFCF8CFCAC8390F3C4444D10A /* AOPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F427CB35E1FBB15DAAB267ED9F759C3 /* AOPLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		FA30086108A31D2E60643B6D07D412DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,69 +34,89 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6BD4C4277135A6757B5AC93E32852608;
+			remoteGlobalIDString = 824353A6A1E56D82E4DF244EEC61EAD2;
 			remoteInfo = AOPLogger;
 		};
 		467E2FEC67C3C210F72A3AA7425D084B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 923A35D5063DCC806DB48A9E8F98175A;
+			remoteGlobalIDString = 91DEC69F3A0E63822ACBAF26CBE11294;
 			remoteInfo = Aspects;
 		};
-		AF2593B3E7BBF301924EAE71F4C650A5 /* PBXContainerItemProxy */ = {
+		48DF71C5270BEC081070C3F1A049CE4F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 923A35D5063DCC806DB48A9E8F98175A;
+			remoteGlobalIDString = 91DEC69F3A0E63822ACBAF26CBE11294;
 			remoteInfo = Aspects;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00CD31AB1BF5CECA4308E8ABE33D3A58 /* AOPLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AOPLogger.h; sourceTree = "<group>"; };
+		068F23CE170142686607D2FD397F6ECB /* AOPLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AOPLogger-dummy.m"; sourceTree = "<group>"; };
+		07F0E7B1FF8115E24A7514D27D5FBBE9 /* UIView+AOPGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+AOPGestureRecognizer.m"; sourceTree = "<group>"; };
 		0B2EF26AF6DEDE59CC373A93BC9D74A0 /* libPods-AOPLoggerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AOPLoggerDemoUITests.a"; path = "libPods-AOPLoggerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15664920B0976B913BF26741BA640D42 /* Pods-AOPLoggerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AOPLoggerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		1C1F062F110B7046A90E00B9B2B3E123 /* Pods-AOPLoggerDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AOPLoggerDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1DFADA587A7CE3F8FE6B600C88388820 /* UIViewController+AOPPageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AOPPageView.h"; sourceTree = "<group>"; };
 		213C7DEF39189CD866127B307C75E76C /* libAOPLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAOPLogger.a; path = libAOPLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		213D4466DD71A07A0807D733025BB1D6 /* Pods-AOPLoggerDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AOPLoggerDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2B336A69CEFD8DB25FCF0D5E59839E86 /* Pods-AOPLoggerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AOPLoggerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		322FB866CACBBDFAD40951CDA812954F /* AOPLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AOPLogger.h; sourceTree = "<group>"; };
 		385F38EC22D20F6D9474ED349DC2DACD /* Pods-AOPLoggerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AOPLoggerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F427CB35E1FBB15DAAB267ED9F759C3 /* AOPLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AOPLogger.m; sourceTree = "<group>"; };
 		41C1FB6DA2F1E6B6812A6AC0FE734288 /* Pods-AOPLoggerDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AOPLoggerDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4BA8C4411DBF973F4EE047583A4DCB1F /* Pods-AOPLoggerDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AOPLoggerDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		54D053D94DA83953671793596B34A490 /* UIApplication+AOPClick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+AOPClick.h"; sourceTree = "<group>"; };
+		55C25C3A4C60C05BA93437AA83FC590A /* UIViewController+AOPPageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AOPPageView.m"; sourceTree = "<group>"; };
 		58EA4F4983C3F42EC6A08646FEE62FF6 /* Pods-AOPLoggerDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AOPLoggerDemoUITests-dummy.m"; sourceTree = "<group>"; };
 		60470E7810EA73EB213D5FF1E4A22261 /* Pods-AOPLoggerDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AOPLoggerDemoUITests-resources.sh"; sourceTree = "<group>"; };
-		622A8C6E5448573FC1E0A934285D35A6 /* AOPLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AOPLogger-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D43C9B97B05F2CCEE4AAC684C7AC204 /* libAspects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAspects.a; path = libAspects.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC7EEAF24CA123EB5DE1C8A0818FA39 /* libPods-AOPLoggerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AOPLoggerDemo.a"; path = "libPods-AOPLoggerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		786587BD911A45F5A76A03E1D23AA280 /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
+		7C41F768DFF76BDB6575302694DD2631 /* UIApplication+AOPClick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+AOPClick.m"; sourceTree = "<group>"; };
+		7C52C977C86F8675E99A98669D33FA79 /* AOPLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AOPLogger.xcconfig; sourceTree = "<group>"; };
 		7DB0C52DFD3D2F8982C0EB9C84882382 /* Pods-AOPLoggerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AOPLoggerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		82AAC843024119318BB04582F4F58DFF /* AOPLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AOPLogger-prefix.pch"; sourceTree = "<group>"; };
 		86429B9296478D798A288217DFFBC51A /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
 		8E223C20C6ED111E85E2181FB5A1C08B /* Pods-AOPLoggerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AOPLoggerDemo-resources.sh"; sourceTree = "<group>"; };
-		8E7E9ABCC056D0CA46E95CC2479F0980 /* AOPLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AOPLogger-dummy.m"; sourceTree = "<group>"; };
 		91F2649839DDEBDF804F6785653F23BE /* Pods-AOPLoggerDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AOPLoggerDemoTests-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9445B660C3677378CE956BDA6E9A8B50 /* Pods-AOPLoggerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AOPLoggerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		979CADE3197D595B4D57148CEA299EBE /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
 		A9574DEBB3F753E8385B645E0696AC16 /* Aspects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.xcconfig; sourceTree = "<group>"; };
 		BB459AC882B06AB175F076622E984AF5 /* Pods-AOPLoggerDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AOPLoggerDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA714CF997162B6E88BB0C71716ACBD0 /* UIView+AOPGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+AOPGestureRecognizer.h"; sourceTree = "<group>"; };
 		CC40F1C41FCB9B2BDCA16245047437A8 /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
 		D9C0370D02D3F9B2EDAC7433534B749C /* Pods-AOPLoggerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AOPLoggerDemo-dummy.m"; sourceTree = "<group>"; };
-		DCBC1B09CDE0E026A0D1A0EA803E4DBB /* AOPLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AOPLogger.xcconfig; sourceTree = "<group>"; };
 		DD50A4849E5C720A7988381F9AEDFCA2 /* Pods-AOPLoggerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AOPLoggerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DFF63756D341C878DDCF6A2A0A73EACE /* Pods-AOPLoggerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AOPLoggerDemo-frameworks.sh"; sourceTree = "<group>"; };
 		E76D1CF963D41E93851BEA2E2C65B965 /* Pods-AOPLoggerDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AOPLoggerDemoTests-resources.sh"; sourceTree = "<group>"; };
-		EC2826E477163AC7B106D2485107FA1A /* AOPLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AOPLogger.m; sourceTree = "<group>"; };
 		EC6DF51D3DB13094545BF6D939FB570E /* libPods-AOPLoggerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AOPLoggerDemoTests.a"; path = "libPods-AOPLoggerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEFE020ACC09F021A850317EE66CC06B /* UIApplication+AOPClick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+AOPClick.m"; sourceTree = "<group>"; };
 		EF39492F9CBB71154DD9D4036CCCD6AE /* Pods-AOPLoggerDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AOPLoggerDemoTests-dummy.m"; sourceTree = "<group>"; };
-		F2CDFD24CE0470F75A6D7EBDAC8B818F /* UIApplication+AOPClick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+AOPClick.h"; sourceTree = "<group>"; };
 		F49E271D9DB642F262B166464D42A622 /* Pods-AOPLoggerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AOPLoggerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FFE1E4A5EBF519A85DE1BD23BCB60A6F /* Pods-AOPLoggerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AOPLoggerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		32453EC8328A2165F3E5E7B6AF8F6668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D934AAF87B245B1B3569ABE7F14A7462 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD212A5E8CE68EDA57FFC965E02B3AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34330151348013F9321B1B0308D5BF27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95CB01531423B7FFDA139357AFD9F9C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -101,27 +125,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AA6958797799BAD76D70AAE7B6D7E54 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A83975305FF31BF42EEE1EC3A899CE2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D43EDB516278163BE7A8C0B2AA878354 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5F3CED8AA3215B9AF5C790A1F1573B33 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE03910DB4A987C8A85428696A4A563B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D386613D1FFB37C27A3C3EEED9C5B52D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +144,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05A77EE24FCD2D7BA81FB869BE264C07 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AAA5E8C8DCD6A69C4381DA81DC465C0 /* AOPLogger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		062D573B76992D2A10F355B5A9AB3683 /* AOPLogger */ = {
+			isa = PBXGroup;
+			children = (
+				322FB866CACBBDFAD40951CDA812954F /* AOPLogger.h */,
+				3F427CB35E1FBB15DAAB267ED9F759C3 /* AOPLogger.m */,
+			);
+			name = AOPLogger;
+			path = AOPLogger;
+			sourceTree = "<group>";
+		};
 		0664232F43A87E20E550981291D76C96 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,17 +170,6 @@
 				69864C009D98F99BDBF60622C1ED70D7 /* Pods-AOPLoggerDemoUITests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		33F2CD0B9CA2094496FFCDAA522F08D5 /* AOPLogger */ = {
-			isa = PBXGroup;
-			children = (
-				BAD273D0DCB2BC62D7A3E3CE5E0C7874 /* AOPClick */,
-				FF851AFEC997FB7CF0556FFC9818855C /* Core */,
-				CB8404B4B01FC25913BC039E8E63E7AE /* Support Files */,
-			);
-			name = AOPLogger;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		41E3DB33F4DE2C37DB4FDDD551E1A029 /* Products */ = {
@@ -169,14 +184,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60473D827B2599531381E304C483E811 /* AOPLogger */ = {
+		49E75ECF02D9A137E0BBE898DD9CCBD9 /* AOPClick */ = {
 			isa = PBXGroup;
 			children = (
-				00CD31AB1BF5CECA4308E8ABE33D3A58 /* AOPLogger.h */,
-				EC2826E477163AC7B106D2485107FA1A /* AOPLogger.m */,
+				54D053D94DA83953671793596B34A490 /* UIApplication+AOPClick.h */,
+				7C41F768DFF76BDB6575302694DD2631 /* UIApplication+AOPClick.m */,
 			);
-			name = AOPLogger;
-			path = AOPLogger;
+			name = AOPClick;
+			path = AOPClick;
 			sourceTree = "<group>";
 		};
 		69864C009D98F99BDBF60622C1ED70D7 /* Pods-AOPLoggerDemoUITests */ = {
@@ -194,19 +209,27 @@
 			path = "Target Support Files/Pods-AOPLoggerDemoUITests";
 			sourceTree = "<group>";
 		};
-		743DDB02BCCAEA61DB6A9600C61A1E60 /* Development Pods */ = {
+		73C79F5B7123BEB5FFDC6CEF6FBE0F26 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				33F2CD0B9CA2094496FFCDAA522F08D5 /* AOPLogger */,
+				062D573B76992D2A10F355B5A9AB3683 /* AOPLogger */,
 			);
-			name = "Development Pods";
+			name = Core;
+			sourceTree = "<group>";
+		};
+		76E21581BB5010AEF6CA19A1B5F34370 /* AOPGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				DAA12063B46EDEE734E5AFD6DAEDC443 /* AOPGestureRecognizer */,
+			);
+			name = AOPGestureRecognizer;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				743DDB02BCCAEA61DB6A9600C61A1E60 /* Development Pods */,
+				05A77EE24FCD2D7BA81FB869BE264C07 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				F44F05A8F527D3FE55781A7396EFE39E /* Pods */,
 				41E3DB33F4DE2C37DB4FDDD551E1A029 /* Products */,
@@ -229,6 +252,19 @@
 			path = "Target Support Files/Pods-AOPLoggerDemoTests";
 			sourceTree = "<group>";
 		};
+		8AAA5E8C8DCD6A69C4381DA81DC465C0 /* AOPLogger */ = {
+			isa = PBXGroup;
+			children = (
+				BF90C653CEEFFEAF7672691043E3E5FF /* AOPClick */,
+				76E21581BB5010AEF6CA19A1B5F34370 /* AOPGestureRecognizer */,
+				BA97432841E5E3FF48CBAA231E144807 /* AOPPageView */,
+				73C79F5B7123BEB5FFDC6CEF6FBE0F26 /* Core */,
+				D4C5C5850D338AF24926A0A8830F38DF /* Support Files */,
+			);
+			name = AOPLogger;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		AB1C6504361C5C1B6E3D2AF3EB01ADC2 /* Aspects */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,12 +276,22 @@
 			path = Aspects;
 			sourceTree = "<group>";
 		};
-		BAD273D0DCB2BC62D7A3E3CE5E0C7874 /* AOPClick */ = {
+		ABF1A745A4A783E741CB4089C112A388 /* AOPPageView */ = {
 			isa = PBXGroup;
 			children = (
-				EF504D2DDEAC6E9D0C6BBC31E0450AE6 /* AOPClick */,
+				1DFADA587A7CE3F8FE6B600C88388820 /* UIViewController+AOPPageView.h */,
+				55C25C3A4C60C05BA93437AA83FC590A /* UIViewController+AOPPageView.m */,
 			);
-			name = AOPClick;
+			name = AOPPageView;
+			path = AOPPageView;
+			sourceTree = "<group>";
+		};
+		BA97432841E5E3FF48CBAA231E144807 /* AOPPageView */ = {
+			isa = PBXGroup;
+			children = (
+				ABF1A745A4A783E741CB4089C112A388 /* AOPPageView */,
+			);
+			name = AOPPageView;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -256,15 +302,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CB8404B4B01FC25913BC039E8E63E7AE /* Support Files */ = {
+		BF90C653CEEFFEAF7672691043E3E5FF /* AOPClick */ = {
 			isa = PBXGroup;
 			children = (
-				DCBC1B09CDE0E026A0D1A0EA803E4DBB /* AOPLogger.xcconfig */,
-				8E7E9ABCC056D0CA46E95CC2479F0980 /* AOPLogger-dummy.m */,
-				622A8C6E5448573FC1E0A934285D35A6 /* AOPLogger-prefix.pch */,
+				49E75ECF02D9A137E0BBE898DD9CCBD9 /* AOPClick */,
 			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/AOPLogger";
+			name = AOPClick;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -273,6 +316,27 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D4C5C5850D338AF24926A0A8830F38DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C52C977C86F8675E99A98669D33FA79 /* AOPLogger.xcconfig */,
+				068F23CE170142686607D2FD397F6ECB /* AOPLogger-dummy.m */,
+				82AAC843024119318BB04582F4F58DFF /* AOPLogger-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/AOPLogger";
+			sourceTree = "<group>";
+		};
+		DAA12063B46EDEE734E5AFD6DAEDC443 /* AOPGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				CA714CF997162B6E88BB0C71716ACBD0 /* UIView+AOPGestureRecognizer.h */,
+				07F0E7B1FF8115E24A7514D27D5FBBE9 /* UIView+AOPGestureRecognizer.m */,
+			);
+			name = AOPGestureRecognizer;
+			path = AOPGestureRecognizer;
 			sourceTree = "<group>";
 		};
 		E2EA20613F2DBD07FBF83113E7C0F8DB /* Pods-AOPLoggerDemo */ = {
@@ -288,16 +352,6 @@
 			);
 			name = "Pods-AOPLoggerDemo";
 			path = "Target Support Files/Pods-AOPLoggerDemo";
-			sourceTree = "<group>";
-		};
-		EF504D2DDEAC6E9D0C6BBC31E0450AE6 /* AOPClick */ = {
-			isa = PBXGroup;
-			children = (
-				F2CDFD24CE0470F75A6D7EBDAC8B818F /* UIApplication+AOPClick.h */,
-				EEFE020ACC09F021A850317EE66CC06B /* UIApplication+AOPClick.m */,
-			);
-			name = AOPClick;
-			path = AOPClick;
 			sourceTree = "<group>";
 		};
 		F44F05A8F527D3FE55781A7396EFE39E /* Pods */ = {
@@ -319,31 +373,25 @@
 			path = "../Target Support Files/Aspects";
 			sourceTree = "<group>";
 		};
-		FF851AFEC997FB7CF0556FFC9818855C /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				60473D827B2599531381E304C483E811 /* AOPLogger */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5F32252FC7BE4DFC2E36607866453710 /* Headers */ = {
+		539A365BCCBA4AAD1D21F3276E7BE2A6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D14DD1A206D86A4148D2593B085109F1 /* Aspects.h in Headers */,
+				B1F33BD03E42F0BE160B1A6742BB88FF /* AOPLogger.h in Headers */,
+				3BE876F677005AA7885566CA74C302E7 /* UIApplication+AOPClick.h in Headers */,
+				32E29D6B50FECAF361DDA5BF312E500E /* UIView+AOPGestureRecognizer.h in Headers */,
+				D515A8334B846BD2F84FD4DC33166062 /* UIViewController+AOPPageView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63A7C33EF8B763889CFF44639E9293BB /* Headers */ = {
+		EE15D6DC1A19A36FCC92A92092FDF0D0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				629CD417E11E5494DAFAA86065BB7F96 /* AOPLogger.h in Headers */,
-				7F5E46593CF24919580DBFDA72584029 /* UIApplication+AOPClick.h in Headers */,
+				914944071A3AD498C1FAB546095309A0 /* Aspects.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,31 +414,31 @@
 			productReference = 0B2EF26AF6DEDE59CC373A93BC9D74A0 /* libPods-AOPLoggerDemoUITests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		6BD4C4277135A6757B5AC93E32852608 /* AOPLogger */ = {
+		824353A6A1E56D82E4DF244EEC61EAD2 /* AOPLogger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 467331D8768D20085ED1F7551EC30B06 /* Build configuration list for PBXNativeTarget "AOPLogger" */;
+			buildConfigurationList = D9352C057299A880BF7EA4DDF17796E4 /* Build configuration list for PBXNativeTarget "AOPLogger" */;
 			buildPhases = (
-				A7CDCE62918E22AAC6D53D8CCE7CBD1E /* Sources */,
-				EE03910DB4A987C8A85428696A4A563B /* Frameworks */,
-				63A7C33EF8B763889CFF44639E9293BB /* Headers */,
+				B937E0CC911EEC78AFEA0D7E2C3AFFF8 /* Sources */,
+				32453EC8328A2165F3E5E7B6AF8F6668 /* Frameworks */,
+				539A365BCCBA4AAD1D21F3276E7BE2A6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E90100B4C8EDA74DCB58CD2F3CAFE0C4 /* PBXTargetDependency */,
+				10F99B0025637B8976977E8CA2C05290 /* PBXTargetDependency */,
 			);
 			name = AOPLogger;
 			productName = AOPLogger;
 			productReference = 213C7DEF39189CD866127B307C75E76C /* libAOPLogger.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		923A35D5063DCC806DB48A9E8F98175A /* Aspects */ = {
+		91DEC69F3A0E63822ACBAF26CBE11294 /* Aspects */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E945E1DF0601973D1FF2C8E81D4F99C /* Build configuration list for PBXNativeTarget "Aspects" */;
+			buildConfigurationList = 1EB9EEB934DEEC762F8FE53717F3DE27 /* Build configuration list for PBXNativeTarget "Aspects" */;
 			buildPhases = (
-				A51B9D083B0246AD7402C2089BD984A8 /* Sources */,
-				9AA6958797799BAD76D70AAE7B6D7E54 /* Frameworks */,
-				5F32252FC7BE4DFC2E36607866453710 /* Headers */,
+				60BAB6C2D6FE7CF2582F4044FBBCFEE1 /* Sources */,
+				8AD212A5E8CE68EDA57FFC965E02B3AD /* Frameworks */,
+				EE15D6DC1A19A36FCC92A92092FDF0D0 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -456,8 +504,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6BD4C4277135A6757B5AC93E32852608 /* AOPLogger */,
-				923A35D5063DCC806DB48A9E8F98175A /* Aspects */,
+				824353A6A1E56D82E4DF244EEC61EAD2 /* AOPLogger */,
+				91DEC69F3A0E63822ACBAF26CBE11294 /* Aspects */,
 				AC1CFFB0B4A4CAE10C4EAAE903015F88 /* Pods-AOPLoggerDemo */,
 				9A8C69599B9BE99F684B3C6DECAC01B1 /* Pods-AOPLoggerDemoTests */,
 				1B2A2041E2BA7B6D802090755CAEEDE7 /* Pods-AOPLoggerDemoUITests */,
@@ -471,6 +519,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D76721B4CFB5BB37854542263525B857 /* Pods-AOPLoggerDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BAB6C2D6FE7CF2582F4044FBBCFEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089EF0D0D1912399E6BEEFC5B2FE3494 /* Aspects-dummy.m in Sources */,
+				8F4F29107D051A18B0507CF9B8F9D7CC /* Aspects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,49 +547,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A51B9D083B0246AD7402C2089BD984A8 /* Sources */ = {
+		B937E0CC911EEC78AFEA0D7E2C3AFFF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CBBB483B0FEDC24D46A37776E8CD903 /* Aspects-dummy.m in Sources */,
-				C6A29E20988AE14AB9DF0A74B052F6A1 /* Aspects.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7CDCE62918E22AAC6D53D8CCE7CBD1E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED5F8D0D1A8FE16F6CDDCFB9BAD2BC05 /* AOPLogger-dummy.m in Sources */,
-				EF209A8EA631B5FF732798DE5AB1EF00 /* AOPLogger.m in Sources */,
-				B34E295C4B91F12B5762E6FA87541FC5 /* UIApplication+AOPClick.m in Sources */,
+				7C092A838B676D9ACBA78CFADC825E1E /* AOPLogger-dummy.m in Sources */,
+				E03BA23CFCF8CFCAC8390F3C4444D10A /* AOPLogger.m in Sources */,
+				1085EA0F3BAB745A6B62C66833E50709 /* UIApplication+AOPClick.m in Sources */,
+				9923E075F8F43F65544007DC9D63E42A /* UIView+AOPGestureRecognizer.m in Sources */,
+				A05B95FEF07D798DD14B6F79B8B0798C /* UIViewController+AOPPageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		10F99B0025637B8976977E8CA2C05290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Aspects;
+			target = 91DEC69F3A0E63822ACBAF26CBE11294 /* Aspects */;
+			targetProxy = 48DF71C5270BEC081070C3F1A049CE4F /* PBXContainerItemProxy */;
+		};
 		31B70A62EA18D8C72196A81CC54DF628 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Aspects;
-			target = 923A35D5063DCC806DB48A9E8F98175A /* Aspects */;
+			target = 91DEC69F3A0E63822ACBAF26CBE11294 /* Aspects */;
 			targetProxy = 467E2FEC67C3C210F72A3AA7425D084B /* PBXContainerItemProxy */;
 		};
 		39828A9DF7F4B5C22D2A51035860017C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AOPLogger;
-			target = 6BD4C4277135A6757B5AC93E32852608 /* AOPLogger */;
+			target = 824353A6A1E56D82E4DF244EEC61EAD2 /* AOPLogger */;
 			targetProxy = 049A4BF8FFDF072EA000388D272B73F5 /* PBXContainerItemProxy */;
-		};
-		E90100B4C8EDA74DCB58CD2F3CAFE0C4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Aspects;
-			target = 923A35D5063DCC806DB48A9E8F98175A /* Aspects */;
-			targetProxy = AF2593B3E7BBF301924EAE71F4C650A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		00A0A18FB67ED971E6AFC6184DE88BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9574DEBB3F753E8385B645E0696AC16 /* Aspects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
 		07831D685A8647ECC2500507E12E749A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2B336A69CEFD8DB25FCF0D5E59839E86 /* Pods-AOPLoggerDemoUITests.release.xcconfig */;
@@ -672,30 +746,6 @@
 			};
 			name = Release;
 		};
-		3F75F446BB51889C9B167DE036138702 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9574DEBB3F753E8385B645E0696AC16 /* Aspects.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-			};
-			name = Debug;
-		};
 		42D7A16EDC470D613F59AF6E9BD772FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F49E271D9DB642F262B166464D42A622 /* Pods-AOPLoggerDemoTests.debug.xcconfig */;
@@ -742,9 +792,9 @@
 			};
 			name = Debug;
 		};
-		78BF4609B42A2741D1CDD02A38ECE2A3 /* Release */ = {
+		AF61AABB45594D4028AA7E9738C1F947 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9574DEBB3F753E8385B645E0696AC16 /* Aspects.xcconfig */;
+			baseConfigurationReference = 7C52C977C86F8675E99A98669D33FA79 /* AOPLogger.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -752,8 +802,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				GCC_PREFIX_HEADER = "Target Support Files/AOPLogger/AOPLogger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -766,9 +816,9 @@
 			};
 			name = Release;
 		};
-		98E66414514C66A81872A1F4AA29628E /* Debug */ = {
+		DB3922D67CC0E83EF74B31B2A08FD84F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCBC1B09CDE0E026A0D1A0EA803E4DBB /* AOPLogger.xcconfig */;
+			baseConfigurationReference = A9574DEBB3F753E8385B645E0696AC16 /* Aspects.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -776,8 +826,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AOPLogger/AOPLogger-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -789,30 +839,6 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 			};
 			name = Debug;
-		};
-		A10FCDB9CE410F7CCE8ED0B57E1ABE61 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCBC1B09CDE0E026A0D1A0EA803E4DBB /* AOPLogger.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AOPLogger/AOPLogger-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-			};
-			name = Release;
 		};
 		DCEF9D6441A0B24568DE1CD093472293 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -836,6 +862,30 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
+		};
+		E0C1852AEC8B0B96CEA7FA5EC3444BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C52C977C86F8675E99A98669D33FA79 /* AOPLogger.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AOPLogger/AOPLogger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
 		};
 		FA5A8621DFFB37E0736960D4A34E3728 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -863,6 +913,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1EB9EEB934DEEC762F8FE53717F3DE27 /* Build configuration list for PBXNativeTarget "Aspects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3922D67CC0E83EF74B31B2A08FD84F /* Debug */,
+				00A0A18FB67ED971E6AFC6184DE88BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -881,24 +940,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		467331D8768D20085ED1F7551EC30B06 /* Build configuration list for PBXNativeTarget "AOPLogger" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				98E66414514C66A81872A1F4AA29628E /* Debug */,
-				A10FCDB9CE410F7CCE8ED0B57E1ABE61 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5E945E1DF0601973D1FF2C8E81D4F99C /* Build configuration list for PBXNativeTarget "Aspects" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3F75F446BB51889C9B167DE036138702 /* Debug */,
-				78BF4609B42A2741D1CDD02A38ECE2A3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		5EB5CC00A2B425EEE59D3AC6F2E9F4F2 /* Build configuration list for PBXNativeTarget "Pods-AOPLoggerDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -913,6 +954,15 @@
 			buildConfigurations = (
 				76F6750A9282F52950DBE1B9F3F7203C /* Debug */,
 				DCEF9D6441A0B24568DE1CD093472293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9352C057299A880BF7EA4DDF17796E4 /* Build configuration list for PBXNativeTarget "AOPLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0C1852AEC8B0B96CEA7FA5EC3444BD7 /* Debug */,
+				AF61AABB45594D4028AA7E9738C1F947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
