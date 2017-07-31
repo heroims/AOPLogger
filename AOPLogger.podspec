@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name                  = 'AOPLogger'
-s.version               = '1.2'
+s.version               = ‘1.3’
 s.summary               = 'A new Logger  '
 s.homepage              = 'https://github.com/heroims/AOPLogger'
 s.license               = { :type => 'MIT', :file => 'README.md' }
@@ -22,6 +22,11 @@ end
 s.subspec 'AOPGestureRecognizer' do |aopgesturerecognizer|
 aopgesturerecognizer.source_files          = 'AOPGestureRecognizer/*.{h,m}'
 aopgesturerecognizer.dependency                'AOPLogger/Core'
+end
+
+s.subspec 'AOPPageView' do |aoppageview|
+aoppageview.source_files          = 'AOPPageView/*.{h,m}'
+aoppageview.dependency                'AOPLogger/Core'
 end
 
 s.requires_arc          = true

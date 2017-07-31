@@ -7,6 +7,9 @@
 //
 
 #import "UIView+AOPGestureRecognizer.h"
+#import <Aspects/Aspects.h>
+#import <objc/runtime.h>
+#import "AOPLogger.h"
 
 @implementation UIView (AOPGestureRecognizer)
 
