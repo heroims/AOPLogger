@@ -110,15 +110,19 @@ NSString * const AOPLoggerPositionType=@"AOPLoggerPositionType";
     Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
     
     if (!originalMethod) {
-        *error=[NSError errorWithDomain:@"AOPLogger"
-                                  code:-1111
-                              userInfo:[NSDictionary dictionaryWithObject:[NSString stringWithFormat:@"not found origin method for class %@",NSStringFromClass([self class])] forKey:NSLocalizedDescriptionKey]];
+        if (error) {
+            *error=[NSError errorWithDomain:@"AOPLogger"
+                                       code:-1111
+                                   userInfo:[NSDictionary dictionaryWithObject:[NSString stringWithFormat:@"not found origin method for class %@",NSStringFromClass([self class])] forKey:NSLocalizedDescriptionKey]];
+        }
         return;
     }
     if (!swizzledMethod) {
-        *error=[NSError errorWithDomain:@"AOPLogger"
-                                   code:-1112
-                               userInfo:[NSDictionary dictionaryWithObject:[NSString stringWithFormat:@"not found swizzled method for class %@",NSStringFromClass([self class])]  forKey:NSLocalizedDescriptionKey]];
+        if (error) {
+            *error=[NSError errorWithDomain:@"AOPLogger"
+                                       code:-1112
+                                   userInfo:[NSDictionary dictionaryWithObject:[NSString stringWithFormat:@"not found swizzled method for class %@",NSStringFromClass([self class])]  forKey:NSLocalizedDescriptionKey]];
+        }
 
         return;
     }
