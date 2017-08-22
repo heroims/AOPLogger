@@ -76,9 +76,18 @@ extern NSString * const AOPLoggerPositionType;//执行日志统计的类型Key
 
 @interface NSObject (AOPLogger)
 
+/**
+ 替换或添加类方法，即使替换过也会替换，注意想单次替换使用dispatch_once保证，如果方法从未声明过则会添加失败
+ 
+ @param originalSelector 原方法
+ @param swizzledSelector 替换方法
+ @param error 错误信息
+ */
++(void)al_hookOrAddWithOriginClassSeletor:(SEL)originalSelector swizzledSelector:(SEL)swizzledSelector error:(NSError**)error;
+
 
 /**
- 替换或添加方法，即使替换过也会替换，注意想单次替换使用dispatch_once保证
+ 替换或添加实例方法，即使替换过也会替换，注意想单次替换使用dispatch_once保证，如果方法从未声明过则会添加失败
 
  @param originalSelector 原方法
  @param swizzledSelector 替换方法

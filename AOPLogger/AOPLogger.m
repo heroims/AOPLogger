@@ -103,6 +103,10 @@ NSString * const AOPLoggerPositionType=@"AOPLoggerPositionType";
 
 @implementation NSObject(AOPLogger)
 
++(void)al_hookOrAddWithOriginClassSeletor:(SEL)originalSelector swizzledSelector:(SEL)swizzledSelector error:(NSError**)error{
+    [object_getClass(self) al_hookOrAddWithOriginSeletor:originalSelector swizzledSelector:swizzledSelector error:error];
+}
+
 +(void)al_hookOrAddWithOriginSeletor:(SEL)originalSelector swizzledSelector:(SEL)swizzledSelector error:(NSError**)error{
     Class class = [self class];
     
